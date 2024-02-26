@@ -1,0 +1,415 @@
+@charset "utf-8";
+#wrap{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+#header{
+    display: none;
+}
+.cate{
+    width: 28%;
+    display: none;
+}
+#main{
+    width: 100%;
+}
+.mainIn{
+}
+.book{
+    width: 100%
+}
+.bookTitle{
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 5vw 0 2vw 1vw;
+}
+.bookAll ul{
+    display: flex;
+    border-top: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    width: fit-content;
+}
+.bookAll li{
+    padding: 1vw 2vw;
+    border-right: 1px solid #c0c0c0;
+    background-color: #fff;
+}
+.bookAll li:last-child{
+    border-right: 0px;
+}
+.gold{
+    color:#947555;
+}
+.bookAll a{
+    font-size: 0.8em;
+    color: #555;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+}
+.midmenu .allBtn{
+    display: flex;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 1vw;
+    padding-right: 1vw;
+}
+
+.bookset{
+    font-size: 2vw;
+    padding: 1vw 2vw 1.6vw 1vw;
+}
+.bookset span{
+    font-weight: bold;
+}
+.bookLine{
+    display: flex;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    width: 100%;
+    background-color: #fff;
+}
+.lineTxt ul{
+    display: flex;
+}
+.lineTxt li{
+    padding: 1vw;
+}
+.lineTxt li a{
+    font-size: 2vw;
+    color: #222;
+    padding: 0 1vw;
+    border-right: 1px solid #d1d1d1;
+}
+.lineBtn{
+    display: none;
+}
+.bookList{
+    width: 100%;
+}
+.bookList li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vw;
+}
+.bookList .bookPhoto{
+    width: 33%;
+    padding-right: 2%;
+}
+.bookList .bookPhoto img{
+    width: 100%;
+    height: auto;
+    
+}
+.bookList .bookTxt{
+    width: 65%;
+    position: relative;
+}
+.bookName a{
+    font-size: 11px;
+    font-weight: bold;
+    color: #222;
+}
+.free{
+    width: 35px;
+    display: none;
+}
+.free img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.bookAbout{
+    display: none;
+}
+.bookPrice a{
+    display: flex;
+    color: #222;
+}
+.bookPrice div{
+    margin-right: 2px;
+}
+
+.ogPrice{
+    font-size: 13px;
+}
+.salePrice{
+    font-size: 14px;
+    color: #EA5759;
+}
+.percent{
+    color: #EA5759;
+    font-size: 10px;
+}
+.review{
+    display: flex;
+    margin-top: 5px;
+}
+.review .star{
+    width: 60px;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+.star img{
+    width: 100%;
+    height: auto;
+}
+.review p{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.review a{
+    font-size: 8px;
+    margin-top: 2px;
+    color: #222;
+}
+.madeTxt{
+    display: none;
+}
+.bookDate{
+    font-size: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #555;
+}
+.bookDate span{
+    font-weight: bold;
+}
+.bookBtn{
+    margin-top: 18vw;
+    padding-left: 2vw;
+}
+.bookBtn button{
+    font-size: 9px;
+    padding: 1vw 4vw;
+}
+.bBuy{
+    background-color: #cc9a67;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.bCart{
+    background-color: #dfdfdf;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.bWish{
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+}
+
+@media screen and (min-width:768px) {
+    .bookTitle{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .mainIn{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .bookset{
+        font-size: 13px;
+    }
+    .cate{
+        display: block;
+        width: 16%;
+        margin-top: 40px;
+        margin-right: 1%;
+    }
+    .cateTitle{
+        font-size: 8px;
+        line-height: 1em;
+        padding: 4px 0 4px 5px;
+        background-color: #fff;
+        border-bottom: 1px solid #e1e1e1;
+    }
+    .thema{
+        border: 1px solid #e1e1e1;
+        height: fit-content;
+        padding: 16px;
+    }
+    .thema li{
+        margin-bottom: 16px;
+        
+    }
+    .thema a{
+        font-size: 14px;
+        color: #222;
+    }
+    .pickBook{
+        border: 1px solid #e1e1e1;
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+    .pick{
+        
+    }
+    .pickTop{
+        font-size: 7px;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 12px 5px 12px ;
+    }
+    .pickTop p{
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+    .pickPhoto{
+        width: 80%;
+        padding-left: 11px;
+    }
+    .pickPhoto img{
+        width: 100%;
+        height: auto;
+    }
+    .pickTxt{
+        padding: 5px 12px 12px 12px;
+    }
+    .pickTxt div{
+
+    }
+    .Date{
+        font-size: 11px;
+    }
+    .pickName{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .pickMade{
+        font-size: 6px;
+    }
+    .pickPrice{
+        font-family: 16px;
+        font-weight: bold;
+        color: #EA5759;
+    }
+    .bookList{
+        width: 83%;
+    }
+    .bookList li{
+        padding: 25px 0 25px 0;
+    }
+    .bookList .bookPhoto{
+        width: 260px;
+        padding-right: 20px;
+    }
+    .bookList .bookPhoto img{
+        width: 100%;
+        height: auto;
+        
+    }
+    .bookTitle h2{
+        font-size: 21px;
+    }
+    .bookAll li{
+        padding: 11px 20px;
+    }
+    .bookAll a{
+        font-size: 16px;
+    }
+    .bookLine{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #c0c0c0;
+        border-bottom: 1px solid #c0c0c0;
+        width: 100%;        
+        background-color: #fff;
+    }
+    .lineTxt ul{
+        display: flex;
+        padding-left: 5px;
+    }
+    .lineTxt li{
+        padding: 12px 0px;
+        
+    }
+    .lineTxt li a{
+        font-size: 11px;
+        color: #555;
+        padding: 0 0.5vw;
+    }
+    .lineBtn{
+        display: block;
+        display: flex;
+    }
+    .lineBtn div{
+        padding-top: 11px;
+        padding-left: 7px;
+        font-size: 11px;
+    }
+    .lineBtn button{
+        background-color: #ffffff;
+        border: 1px solid #d1d1d1;
+    }
+    .lineBtn button p{
+        padding: 2px 16px 2px 3px;
+        font-size: 14px;
+    }
+    
+    .bookName a{
+        font-size: 18px;
+    }
+    .bookTxt{
+    }
+    .bookAbout{
+        display: block;
+        font-size: 14px;
+        color: #999999;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .dot{
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid #c0c0c0;
+        border-top-style: dotted;
+    }
+    .bookDate{
+        font-size: 15px;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+    }
+    .bookBtn{
+        margin-top: 0;
+        padding-left: 10px;
+    }
+    .bookBtn button{
+        font-size: 14px;
+        padding: 30px 50px;
+    }
+    .bBuy{
+        background-color: #cc9a67;
+        text-align: center;
+        margin-bottom: 1vw;
+    }
+    .bCart{
+        background-color: #dfdfdf;
+        text-align: center;
+        margin-bottom: 1vw;
+    }
+    .bWish{
+        background-color: #fff;
+        border: 1px solid #c0c0c0;
+    }
+}
+@media screen and (min-width:1440px){
+    .mainIn{
+        max-width: 1150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bookAll li{
+        padding: 14px 22px;
+    }
+    .bookAll a{
+        font-size: 18px;
+    }
+    .midmenu .allBtn{
+        font-size: 16px;
+    }
+}

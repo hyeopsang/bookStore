@@ -1,0 +1,53 @@
+
+#wrap{
+    position: relative;
+    width: 100%;
+}
+#header{
+    display: none;
+}
+.mainIn{
+    width: 100%;
+}
+.cate{
+    display: none;
+}
+.bookTitle h2{
+    font-size: 12px;
+}
+.bookAll ul{
+    display: flex;
+    border: 1px solid #e5e5e5;
+    width: 60vw;
+}
+.bookAll li{
+    border-right: 1px solid #e5e5e5;
+    width: 15vw;
+    text-align: center;
+}
+.bookAll li:last-child{
+    border: 0;
+}
+.bookAll a{
+    font-size: 8px;
+    color: #222;
+    font-weight: bold;
+}
+.gold a{
+    color: #947555;
+}
+.mid{
+    display: none;
+}
+.bookLine{
+    display: flex;
+}
+.lineTxt{
+    display: flex;
+}
+.lineTxt a{
+    font-size: 6px;
+}
+.lineBtn{
+    display: none;
+}
